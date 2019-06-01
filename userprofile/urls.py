@@ -20,5 +20,5 @@ from profileapi import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^api/',include('profileapi.urls')),
+    url(r'',include('profileapi.urls')),
 ]
